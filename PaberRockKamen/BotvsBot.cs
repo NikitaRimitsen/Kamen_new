@@ -134,15 +134,23 @@ namespace PaberRockKamen
             int scetcikVasja = 0;
             if (randombot1==1 && randombot2==2 || randombot1==2 && randombot2== 3 || randombot1 == 3 && randombot2 == 1)
             {
-                scetcikIvan = +1;
+
+                scetcikIvan++;
                 string str1 = scetcikIvan.ToString();
                 MessageBox.Show("Bot Ivan win", "Tulemus");
+                lbl3.Text = "";
                 lbl3.Text = str1;
             }
             else if (randombot2 == 1 && randombot1 == 2 || randombot2 == 2 && randombot1 == 3 || randombot2 == 3 && randombot1 == 1)
             {
-
-                MessageBox.Show("Bot Vasja win", "Tulemus");
+                scetcikVasja++;
+                string str2 = scetcikVasja.ToString();
+                lbl4.Text = "";
+                lbl4.Text = str2;
+                if (scetcikVasja==3)
+                {
+                    MessageBox.Show("Bot Vasja win", "Tulemus");
+                }
             }
         }
 

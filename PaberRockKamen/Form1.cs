@@ -137,8 +137,8 @@ namespace PaberRockKamen
                 btn.BackColor = Color.Black;
                 btn2.ForeColor = Color.White;
                 btn2.BackColor = Color.Black;
-                btn3.ForeColor = Color.Black;
-                btn3.BackColor = Color.White;
+                btn3.ForeColor = Color.White;
+                btn3.BackColor = Color.Black;
             }
             else if (scetcik == 3)
             {
@@ -146,9 +146,9 @@ namespace PaberRockKamen
                 btn.ForeColor = Color.Black;
                 btn.BackColor = Color.Honeydew;
                 btn2.ForeColor = Color.Black;
-                btn2.BackColor = Color.White;
+                btn2.BackColor = Color.Honeydew;
                 btn3.ForeColor = Color.Black;
-                btn3.BackColor = Color.White;
+                btn3.BackColor = Color.Honeydew;
                 scetcik = 0;
             }
         }
